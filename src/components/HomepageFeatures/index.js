@@ -1,21 +1,21 @@
 import React from 'react';
 import clsx from 'clsx';
-import styles from './styles.moduleFeature.css';
+import styles from './styles.module.css';
 
 function HomepageFeature() {
 
   return (
-    <body className="App-body">
+    <body className={styles.appBody}>
       <div className="container">
         <div className="row">
           <div className={clsx('col col--6')}>
-            <h1 className="text-title m-0 p-0">EDUCATION</h1>
+            <h1 className={styles.textTitle}>EDUCATION</h1>
             <h1 className="style-hr"></h1>
-            <p className="text-title2">Bachelor Development And Systems Analysis</p>
+            <p className={styles.textTitle2}>Bachelor Development And Systems Analysis</p>
             <p className="text-subtitle">University Senac Santo Amaro</p>
             <div className="row">
               <div className={clsx('col col--2')}>
-                <img src="img/calendar.svg" className="App-logo-quadrado text-subtitle-gray p-2" alt="logo" />
+                <img src="img/calendar.svg"className={styles.appLogoQuadrado} alt="logo" />
               </div>
              <div className={clsx('col col--3')}>
                 <p className="text-subtitle-gray m-0 p-0">2018-2021</p>
@@ -29,13 +29,13 @@ function HomepageFeature() {
             <p className="text-subtitle">Everis NTTDATA</p>
             <div className="row">
               <div className={clsx('col col--2')}>
-                <img src="img/calendar.svg" className="App-logo-quadrado text-subtitle-gray p-2" alt="logo" />
+                <img src="img/calendar.svg" className={styles.appLogoQuadrado} alt="logo" />
               </div>
              <div className={clsx('col col--3')}>
                 <p className="text-subtitle-gray m-0 p-0">2018-2023</p>
               </div>
               <div className={clsx('col col--2')}>
-                <img src="img/location.svg" className="App-logo-quadrado text-subtitle-gray p-2" alt="logo" />
+                <img src="img/location.svg" className={styles.appLogoQuadrado} alt="logo" />
               </div>
              <div className={clsx('col col--3')}>
                 <p className="text-subtitle-gray m-0 p-0">São Paulo</p>
@@ -66,13 +66,13 @@ function HomepageFeature() {
               <h1 className="style-hr"></h1>
               <div className="row">
                 <div class="mb-3">
-                  <img src="img/github.png" className="App-logo p-2" alt="logo" />
+                  <img src="img/github.png" className={styles.appLogo} alt="logo" />
                   <a className="p-1" href="https://github.com/Igornodari?tab=repositories"> GitHub</a>
                 </div>
               </div>
               <div className="row">
                 <div>
-                  <img src="img/linkedin.png" className="App-logo p-2" alt="logo" />
+                  <img src="img/linkedin.png" className={styles.appLogo} alt="logo" />
                   <a className="p-1" href="https://www.linkedin.com/in/igor-leal-nodari-512b7914a/"> Linkedin</a>
                   <hr></hr>
                 </div>
