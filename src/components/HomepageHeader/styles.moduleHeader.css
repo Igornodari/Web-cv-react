@@ -1,0 +1,58 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+ .textSubtitle {
+  font-weight: bold;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+.textTitle {
+  font-weight: bold;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: calc(10px + 2vmin) !important;
+
+}
+ .textoCentro {
+  margin-top: 1.5rem !important;
+  line-height: 1.2;
+  font-style: normal;
+}
+.AppHeader {
+  min-height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;  
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.appLogo {
+  height: 8vmin;
+  margin: 15px;
+  border-radius: 200px;
+  pointer-events: none;
+}
+.appLogoNav {
+  height: 25vmin;
+  margin: 15px;
+  border-radius: 200px;
+  pointer-events: none;
+}
+.appHeaderItens {
+  margin: 20px;
+}
