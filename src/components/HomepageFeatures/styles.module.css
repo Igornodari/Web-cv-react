@@ -4,7 +4,13 @@
   padding: 2rem 0;
   width: 100%;
 }
-
+.textoCentro {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  line-height: 1.2;
+  font-style: normal;
+  padding: 0px;
+}
 .featureSvg {
   height: 200px;
   width: 200px;
@@ -20,36 +26,43 @@
 }
 .appBody {
   min-height: auto;
+  margin-top: 25px;
 }
 .textTitle {
   font-weight: bold;
-  color: #3d619d;
+  color: #2e8555;
   font-family: sans-serif;
   font-size: calc(10px + 2vmin) !important;
 }
 .textTitle2{
   font-weight: bold;
-  color: #3d619d;
+  color: #2e8555;
   font-family: sans-serif;
   font-size: calc(5px + 2vmin) !important;
+  margin-top: 1.5rem !important;
+  line-height: 4.2;
+  font-style: normal;
 }
 
 .textSubtitle {
   font-weight: bold;
-  color: #2eaf2e;
+  color: #2e8555;
   font-family: sans-serif;
 }
-.marginl{
-  margin-left: 50px;
+.marginL{
+  margin:2px
+}
+.marginFind{
+  margin:5px
 }
 
 .textSubtitleGray {
   font-weight: bold;
   color: #aeaeae;
   font-family: sans-serif;
-  font-size: calc(5px + 2vmin) !important;
+  font-size: calc(8px + 1vmin) !important;
 }
-.bola-amarela {
+.bolaAmarela {
   border-radius: 50%;
   display: inline-block;
   height:25px;
@@ -58,7 +71,7 @@
   border: 1px solid #000000;
   background-color: #adaf2e;
 }
-.bola-preta {
+.bolaPreta {
   border-radius: 50%;
   display: inline-block;
   height: 25px;
@@ -67,7 +80,7 @@
   border: 1px solid #000000;
   background-color: #000000;
 }
-.style-hr {
+.styleHr {
   height: 10px;
   width: auto;
   border-style: solid;
