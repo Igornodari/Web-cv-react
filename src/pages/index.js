@@ -6,10 +6,13 @@ import HomepageHeader from '../components/HomepageHeader';
 export default function Home() {
   return (
     <Layout>
+      <header>
       <HomepageHeader/>
-      <main>
+
+      </header>
+      <body>
       <HomepageFeature/>
-      </main>
+      </body>
     </Layout>
   );
 }
