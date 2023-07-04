@@ -9,22 +9,6 @@ function HomepageFeature() {
       <div className="container">
         <div className="row">
           <div className={clsx('col col--6', styles.noPadding)}>
-
-            <h1 className={styles.textTitle}>EDUCATION</h1>
-            <h1 className={styles.styleHr}></h1>
-            <p className={styles.textTitle2}>Bachelor Development And Systems Analysis</p>
-            <p className={clsx(styles.textoCentro, styles.textSubtitle)}>University Senac Santo Amaro</p>
-
-            <div className={clsx('row')}>
-              <div className={clsx('col col--3')}>
-                <img src="img/calendar.svg" className={styles.appLogoQuadrado} alt="logo" />
-              </div>
-              <div className={clsx('col col--3')}>
-                <p className={clsx(styles.textoCentro, styles.textSubtitleGray)}>2019-2023</p>
-              </div>
-            </div>
-            <hr></hr>
-
             <h1 className={styles.textTitle}>EXPERIENCE</h1>
             <h1 className={styles.styleHr}></h1>
             <p className={styles.textTitle2}>Estagiario</p>
@@ -117,28 +101,17 @@ function HomepageFeature() {
           </div>
 
           <div className={clsx('col col--6', styles.noPadding)}>
+          <h1 className={styles.textTitle}>EDUCATION</h1>
+            <h1 className={styles.styleHr}></h1>
+            <p className={styles.textTitle2}>Bachelor Development And Systems Analysis</p>
+            <p className={clsx(styles.textoCentro, styles.textSubtitle)}>University Senac Santo Amaro</p>
 
-            <h1 className={styles.textTitle}>FIND ME ONLINE</h1>
-            <div className={styles.styleHr}></div>
-
-            <div className='row'>
-
-              <div className={clsx('col col--3', styles.textoCentro,styles.paddingItems)}>
-                <img src="img/github.png" className={styles.appLogo} alt="logo" />
+            <div className={clsx('row')}>
+              <div className={clsx('col col--3')}>
+                <img src="img/calendar.svg" className={styles.appLogoQuadrado} alt="logo" />
               </div>
-
-              <div className={clsx('col col--3', styles.textoCentro,styles.paddingItems)} >
-                <a className={styles.textSubTitle2} href="https://github.com/Igornodari?tab=repositories"> GitHub</a>
-              </div>
-            </div>
-
-            <div className='row'>
-              <div className={clsx('col col--3', styles.textoCentro,styles.paddingItems)}>
-                <img src="img/linkedin.png" className={styles.appLogo} alt="logo" />
-              </div>
-
-              <div className={clsx('col col--3', styles.textoCentro,styles.paddingItems)}>
-                <a className={styles.textSubTitle2} href="https://www.linkedin.com/in/igor-leal-nodari-512b7914a/"> Linkedin</a>
+              <div className={clsx('col col--3')}>
+                <p className={clsx(styles.textoCentro, styles.textSubtitleGray)}>2019-2023</p>
               </div>
             </div>
 
