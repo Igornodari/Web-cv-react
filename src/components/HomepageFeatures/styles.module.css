@@ -6,7 +6,7 @@
 }
 .textoCentro {
   margin-top: 1.5rem !important;
-  line-height: 1.2;
+  line-height: 2.2;
   font-style: normal;
   padding: 0px;
 }
@@ -18,7 +18,15 @@
   width: 200px;
 }
 .noPadding {
-  padding: 20px;
+  padding: 12px;
+}
+.paddingItems{
+  padding-bottom: 5px;
+  padding-left: 20px;
+
+}
+.padding-bottom {
+  padding-bottom: 5px;
 }
 .ml10 {
   margin-right: 10px;
@@ -100,7 +108,7 @@
   height: 10px;
   width: auto;
   border-style: solid;
-  border-color: #3d619d;
+  border-color: #156b40;
   border-width: 0 0 5px 0;
   border-radius:2px;
 }
