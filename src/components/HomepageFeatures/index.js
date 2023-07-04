@@ -75,7 +75,7 @@ function HomepageFeature() {
             <p className={styles.textTitle2}>
               ● Com experiência em projetos SCRUM nos clientes, Itau e Bradesco.
               Tive a oportunidade de trabalhar minhas habilidades sociais, lidando com o PO, Gerentes, Techleads e equipes de QA, Backend, Mainframe, Bff e Design de telas(UX).
-              Também durante esse tempo, no meu ultimo projeto ("Bradesco"), tive a oportunidade de interagir com o cliente em atividades cotidianas como reuniões, ritos e cerimonias da metodologia SCRUM e resolvendo objetivos com eficiência sempre trabalhando em grupo com proatividade e comprometimento
+              Também durante esse tempo, no meu ultimo projeto ("Bradesco"), tive a oportunidade de interagir com o cliente em atividades cotidianas como reuniões, ritos e cerimonias da metodologia SCRUM e resolvendo objetivos com eficiência, sempre trabalhando em grupo com proatividade e comprometimento
               Evoluindo a comunicação, empatia, escuta ativa e um bom relacionamento entre ambas as partes !
               </p>
               <hr></hr>
@@ -196,6 +196,9 @@ function HomepageFeature() {
                 <p className={styles.textSubtitle} >Bootstrap</p>
                 <p className={styles.textSubtitle} >Ionic</p>
                 <p className={styles.textSubtitle} >Confluence</p>
+                <p className={styles.textSubtitle} >i18n</p>
+                <p className={styles.textSubtitle} >Api rest</p>
+
               </div>
               <div className={clsx('col col--6', styles.noPadding)}>
                 <p className={styles.textSubtitle} >React</p>
@@ -212,6 +215,8 @@ function HomepageFeature() {
                 <p className={styles.textSubtitle} >Bamboo</p>
                 <p className={styles.textSubtitle} >Angular Material</p>
                 <p className={styles.textSubtitle} >FlexBox</p>
+                <p className={styles.textSubtitle} >Micro-Frontend</p>
+                <p className={styles.textSubtitle} >Componentização</p>
               </div>
             </div>
 
@@ -229,6 +234,7 @@ function HomepageFeature() {
                 <p className={styles.textSubtitle} >Formação Angular 7+</p>
               </div>
           </div>
+          <h1 className={styles.styleHr}></h1>
           </div>
         </div>
       </div>
