@@ -27,7 +27,7 @@ function HomepageFeature() {
 
             <h1 className={styles.textTitle}>EXPERIENCE</h1>
             <h1 className={styles.styleHr}></h1>
-            <p className={styles.textTitle2}>FrontEnd Junior</p>
+            <p className={styles.textTitle2}>Estagiario</p>
             <p className={styles.textSubtitle}>Everis</p>
             <div className="row">
 
@@ -35,7 +35,7 @@ function HomepageFeature() {
                 <img src="img/calendar.svg" className={styles.appLogoQuadrado} alt="logo" />
               </div>
               <div className={clsx('col col--3')}>
-                <p className={styles.textSubtitleGray}>2018-2021</p>
+                <p className={styles.textSubtitleGray}>2018-2020</p>
               </div>
               <div className={clsx('col col--3')}>
                 <img src="img/location.svg" className={styles.appLogoQuadrado} alt="logo" />
@@ -45,8 +45,27 @@ function HomepageFeature() {
               </div>
             </div>
 
-            <h1 className={styles.styleHr}></h1>
-            <p className={styles.textTitle2}>FrontEnd Pleno</p>
+   <hr></hr>
+            <p className={styles.textTitle2}>FrontEnd Junior</p>
+            <p className={styles.textSubtitle}>Everis</p>
+            <div className="row">
+
+              <div className={clsx('col col--3')}>
+                <img src="img/calendar.svg" className={styles.appLogoQuadrado} alt="logo" />
+              </div>
+              <div className={clsx('col col--3')}>
+                <p className={styles.textSubtitleGray}>2020-2021</p>
+              </div>
+              <div className={clsx('col col--3')}>
+                <img src="img/location.svg" className={styles.appLogoQuadrado} alt="logo" />
+              </div>
+              <div className={clsx('col col--3')}>
+                <p className={styles.textSubtitleGray}>São Paulo</p>
+              </div>
+            </div>
+
+            <hr></hr>
+            <p className={styles.textTitle2}>FrontEnd Junior N2</p>
             <p className={styles.textSubtitle}>NTTDATA</p>
             <div className="row">
 
@@ -63,7 +82,6 @@ function HomepageFeature() {
                 <p className={styles.textSubtitleGray}>São Paulo</p>
               </div>
             </div>
-
             <hr></hr>
             <h1 className={styles.textTitle}>WORK GOALS</h1>
             <h1 className={styles.styleHr}></h1>
@@ -130,12 +148,12 @@ function HomepageFeature() {
             <h1 className={styles.styleHr}></h1>
 
             <div className="row">
-              <div className={clsx('col col--3',styles.noPadding)}>
+              <div className={clsx('col col--3')}>
                 <p className={styles.textSubtitle}>Portuguese</p>
                 <p className={styles.textSubtitleGray}>Native</p>
               </div>
 
-              <div className={clsx('col col--9',styles.noPadding)}>
+              <div className={clsx('col col--9')}>
                 <p className={styles.bolaAmarela} alt="logo" />
                 <p className={styles.bolaAmarela} alt="logo" />
                 <p className={styles.bolaAmarela} alt="logo" />
@@ -146,11 +164,11 @@ function HomepageFeature() {
             </div>
 
             <div className="row">
-              <div className={clsx('col col--3',styles.noPadding)}>
+              <div className={clsx('col col--3')}>
                 <p className={styles.textSubtitle}>English</p>
                 <p className={styles.textSubtitleGray}>Middle</p>
               </div>
-              <div className={clsx('col col--6',styles.noPadding)}>
+              <div className={clsx('col col--6')}>
                 <p className={styles.bolaAmarela} alt="logo" />
                 <p className={styles.bolaAmarela} alt="logo" />
                 <p className={styles.bolaAmarela} alt="logo" />
@@ -161,11 +179,11 @@ function HomepageFeature() {
             </div>
 
             <div className="row">
-              <div className={clsx('col col--3',styles.noPadding)}>
+              <div className={clsx('col col--3')}>
                 <p className={styles.textSubtitle}>Espanhol</p>
                 <p className={styles.textSubtitleGray}>Low</p>
               </div>
-              <div className={clsx('col col--6',styles.noPadding)}>
+              <div className={clsx('col col--6')}>
                 <p className={styles.bolaAmarela} alt="logo" />
                 <p className={styles.bolaAmarela} alt="logo" />
                 <p className={styles.bolaAmarela} alt="logo" />
@@ -229,7 +247,7 @@ function HomepageFeature() {
                 <p className={styles.textSubtitle} >Udemy</p>
                 <p className={styles.textSubtitle} >Desenvolvimento Android java</p>
                 <p className={styles.textSubtitle} >Alura</p>
-                <p className={styles.textSubtitle} > Desenvolvimento Android kotlin.</p>
+                <p className={styles.textSubtitle} >Desenvolvimento Android kotlin.</p>
                 <p className={styles.textSubtitle} >Alura</p>
                 <p className={styles.textSubtitle} >Formação Angular 7+</p>
               </div>
